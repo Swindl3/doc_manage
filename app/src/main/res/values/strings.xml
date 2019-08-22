@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">My Application Document</string>
+    <string name="title_activity_using_navigation_drawer">UsingNavigationDrawer</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="closeDrawer">Navigation View</string>
+    <string name="openDrawer">Navigation View Closed</string>
+    <string name="home">หน้าหลัก</string>
+    <string name="a1">กลุ่ม</string>
+    <string name="a2">เพิ่มกลุ่ม</string>
+    <string name="a3">Temperature Converter</string>
+    <string name="a4">Unit Converter</string>
+    <string name="a5">Simple Interest</string>
+    <string name="a6">String Comparison</string>
+    <string name="a7">Array Operation</string>
+    <string name="a8">Armstrong Number</string>
+    <string name="a9">Random Number</string>
+    <string name="a10">Arithmetic Operations</string>
+    <string name="a11">Swap Array Element</string>
+    <string name="a12">Student Report</string>
+    <string name="a13">Compound Interest</string>
+    <string name="a14">Gross Salary</string>
+    <string name="a15">Driver Eligibility</string>
+    <string name="a16">Character Check</string>
+    <string name="a17">Insurance Premium</string>
+    <string name="a18">Steel Grade</string>
+    <string name="a19">Notes Breakdown</string>
+    <string name="a20">Telephone Bill</string>
+    <string name="a21">Matrix</string>
+    <string name="a22">Record</string>
+    <string name="a23">Calculator</string>
+    <string name="a24">Tic Tac Toe</string>
+
+</resources>

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegisterActivity">
+
+
+    <include
+        android:id="@+id/tb"
+        layout="@layout/app_bar_using_navigation_drawer" />
+
+    <EditText
+        android:id="@+id/regis_firstname"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+       android:hint="Firstname"
+        android:layout_marginTop="30dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/tb"/>
+
+    <EditText
+        android:id="@+id/regis_lastname"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:hint="Lastname"
+        android:layout_below="@+id/regis_firstname"
+        android:layout_marginTop="10dp"
+        android:layout_centerHorizontal="true"/>
+
+    <EditText
+        android:id="@+id/regis_email"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:hint="Email"
+        android:layout_below="@+id/regis_lastname"
+        android:layout_marginTop="10dp"
+        android:layout_centerHorizontal="true"/>
+
+    <EditText
+        android:id="@+id/regis_username"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:hint="Username"
+        android:layout_below="@+id/regis_email"
+        android:layout_marginTop="10dp"
+        android:layout_centerHorizontal="true"/>
+
+    <EditText
+        android:id="@+id/regis_password"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:hint="Password"
+        android:layout_below="@+id/regis_username"
+        android:layout_marginTop="10dp"
+        android:layout_centerHorizontal="true"/>
+
+    <EditText
+        android:id="@+id/regis_confrimpassword"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:hint="ConfrimPassword"
+        android:layout_below="@+id/regis_password"
+        android:layout_marginTop="10dp"
+        android:layout_centerHorizontal="true"/>
+
+    <Button
+        android:id="@+id/btn_registersucc"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/regis_confrimpassword"
+        android:text="ยืนยัน"
+        android:textColor="#ffff"
+        android:background="@drawable/bg_login"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="30dp" />
+
+    <TextView
+        android:id="@+id/tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/regis_confrimpassword"
+        android:text="callapi"
+        android:layout_centerHorizontal="true"/>
+
+</RelativeLayout>

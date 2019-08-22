@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <EditText
+        android:id="@+id/group_name"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:hint="ชื่อกลุ่ม"
+        android:layout_marginTop="30dp"
+        android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:id="@+id/group_detail"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:hint="รายละเอียด"
+        android:layout_marginTop="30dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/group_name"/>
+
+    <Button
+        android:id="@+id/btn_insert_group"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/group_detail"
+        android:text="ยืนยัน"
+        android:textColor="#ffff"
+        android:background="@drawable/bg_login"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="30dp" />
+
+</RelativeLayout>
